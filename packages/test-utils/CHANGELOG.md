@@ -1,5 +1,15 @@
 # @keystonejs/test-utils
 
+## 7.1.1
+
+### Patch Changes
+
+- [`5332988e3`](https://github.com/keystonejs/keystone/commit/5332988e3fafe6a3594f7dcecd79a9402df28015) [#3278](https://github.com/keystonejs/keystone/pull/3278) Thanks [@timleslie](https://github.com/timleslie)! - Replaced use of "p-finally" library with native Node code.
+
+- Updated dependencies [[`afe661e60`](https://github.com/keystonejs/keystone/commit/afe661e607539df13584d460e1016ba0fa883cb8), [`5a3849806`](https://github.com/keystonejs/keystone/commit/5a3849806d00e62b722461d02f6e4639bc45c1eb)]:
+  - @keystonejs/keystone@12.1.0
+  - @keystonejs/app-graphql@6.1.0
+
 ## 7.1.0
 
 ### Minor Changes

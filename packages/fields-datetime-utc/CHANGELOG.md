@@ -1,5 +1,12 @@
 # @keystonejs/fields-datetime-utc
 
+## 6.0.4
+
+### Patch Changes
+
+- Updated dependencies [[`c3883e01c`](https://github.com/keystonejs/keystone/commit/c3883e01c01b83cf5938de9bebf2dd68f4861364)]:
+  - @keystonejs/fields@15.0.0
+
 ## 6.0.3
 
 ### Patch Changes

@@ -1,5 +1,20 @@
 # @keystonejs/api-tests
 
+## 6.0.2
+
+### Patch Changes
+
+- [`afe661e60`](https://github.com/keystonejs/keystone/commit/afe661e607539df13584d460e1016ba0fa883cb8) [#3274](https://github.com/keystonejs/keystone/pull/3274) Thanks [@jordanoverbye](https://github.com/jordanoverbye)! - Added the ability for static cache hints to be added to custom queries generated using `keystone.extendGraphQLSchema()`
+
+* [`50d33ddf9`](https://github.com/keystonejs/keystone/commit/50d33ddf937ae68b4a9ca7f0c0892637c5622b3d) [#3281](https://github.com/keystonejs/keystone/pull/3281) Thanks [@timleslie](https://github.com/timleslie)! - Updated tests to not depend on resolver order.
+
+* Updated dependencies [[`afe661e60`](https://github.com/keystonejs/keystone/commit/afe661e607539df13584d460e1016ba0fa883cb8), [`5a3849806`](https://github.com/keystonejs/keystone/commit/5a3849806d00e62b722461d02f6e4639bc45c1eb), [`5332988e3`](https://github.com/keystonejs/keystone/commit/5332988e3fafe6a3594f7dcecd79a9402df28015), [`c3883e01c`](https://github.com/keystonejs/keystone/commit/c3883e01c01b83cf5938de9bebf2dd68f4861364)]:
+  - @keystonejs/keystone@12.1.0
+  - @keystonejs/app-graphql@6.1.0
+  - @keystonejs/test-utils@7.1.1
+  - @keystonejs/fields@15.0.0
+  - @keystonejs/auth-password@5.1.12
+
 ## 6.0.1
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @keystonejs/cypress-project-facebook-login
 
+## 5.1.14
+
+### Patch Changes
+
+- Updated dependencies [[`afe661e60`](https://github.com/keystonejs/keystone/commit/afe661e607539df13584d460e1016ba0fa883cb8), [`5a3849806`](https://github.com/keystonejs/keystone/commit/5a3849806d00e62b722461d02f6e4639bc45c1eb), [`c3883e01c`](https://github.com/keystonejs/keystone/commit/c3883e01c01b83cf5938de9bebf2dd68f4861364)]:
+  - @keystonejs/keystone@12.1.0
+  - @keystonejs/app-graphql@6.1.0
+  - @keystonejs/app-admin-ui@7.2.0
+  - @keystonejs/fields@15.0.0
+  - @keystonejs/auth-passport@5.2.5
+  - @keystonejs/auth-password@5.1.12
+
 ## 5.1.13
 
 ### Patch Changes

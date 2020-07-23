@@ -1,5 +1,24 @@
 # @keystonejs/fields
 
+## 15.0.0
+
+### Major Changes
+
+- [`c3883e01c`](https://github.com/keystonejs/keystone/commit/c3883e01c01b83cf5938de9bebf2dd68f4861364) [#3261](https://github.com/keystonejs/keystone/pull/3261) Thanks [@timleslie](https://github.com/timleslie)! - `many` relationships now have a GraphQL type of `[Item!]!`, rather than `[Item]`.
+
+  The old type of `[Item]` implied that the relationship field could return `null`, or that some of the items it returned could be `null`. In practice, neither of these things ever happened. The new type better reflects this reality.
+
+  The filter argument `{path}_is_null` has also been removed for `many` relationships, as it does not apply to a non-null array type.
+
+### Patch Changes
+
+- Updated dependencies [[`d7e011319`](https://github.com/keystonejs/keystone/commit/d7e011319d18275e7e3ca1ab2209b2042c6775cb), [`5a3849806`](https://github.com/keystonejs/keystone/commit/5a3849806d00e62b722461d02f6e4639bc45c1eb), [`5332988e3`](https://github.com/keystonejs/keystone/commit/5332988e3fafe6a3594f7dcecd79a9402df28015)]:
+  - @keystonejs/build-field-types@5.2.11
+  - @keystonejs/access-control@6.3.0
+  - @keystonejs/app-admin-ui@7.2.0
+  - @keystonejs/test-utils@7.1.1
+  - @keystonejs/field-content@7.0.3
+
 ## 14.0.0
 
 ### Major Changes
